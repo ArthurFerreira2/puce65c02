@@ -4,10 +4,10 @@ runs at ~1Ghz on a modern computer
 powers reinette IIe : https://github.com/ArthurFerreira2/reinetteIIe
 
 ### tests
-I left the test and timing routines I used during developpement 
+I left the test and timing routines I used during developpement  
 you can use them to verify accuracy :
 
-Theses tests require `6502_functional_test.bin` and `65C02_extended_opcodes_test.bin` which you can get from https://github.com/Klaus2m5/6502_65C02_functional_tests
+Theses tests require `6502_functional_test.bin` and `65C02_extended_opcodes_test.bin` which you can get from https://github.com/Klaus2m5/6502_65C02_functional_tests  
 and `timingtest-1.bin` I got from BigEd at http://forum.6502.org/viewtopic.php?f=8&t=3340
 
 ### compile and run :
