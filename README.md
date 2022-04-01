@@ -1,6 +1,6 @@
 # puce65c02
 puce65c02, a WDC 65c02 cpu emulator focusing on accuracy and performance
-runs at ~1Ghz on a modern computer
+runs at ~1Ghz on a modern computer  
 powers reinette IIe : https://github.com/ArthurFerreira2/reinetteIIe
 
 ### tests
