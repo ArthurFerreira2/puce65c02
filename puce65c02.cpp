@@ -119,8 +119,7 @@ void puce65c02::NMI() {
 uint16_t puce65c02::exec(unsigned long long int cycleCount) {
 
   cycleCount += ticks;  // cycleCount becomes the targeted ticks value8
-  while (ticks < cycleCount) {
-    if (state == run || state == step) {
+  while (ticks < cycleCount && (state == run || state == step)) {
 
       uint8_t value8;
       uint16_t value16;
@@ -2559,7 +2558,6 @@ uint16_t puce65c02::exec(unsigned long long int cycleCount) {
         break;
 
       } // end of switch
-    }  // end of if
   }  // end of while
   return PC;
 }
