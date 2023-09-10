@@ -2,7 +2,7 @@
   puce65c02, a WDC 65c02 cpu emulator, based on puce6502 by the same author
   Last modified 1st of July 2021
 
-  Copyright (c) 2021 Arthur Ferreira (arthur.ferreira2@gmail.com)
+  Copyright (c) 2021 Arthur Ferreira
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
